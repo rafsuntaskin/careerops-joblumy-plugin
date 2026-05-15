@@ -14,7 +14,7 @@ Sync your [career-ops](https://github.com/santifer/career-ops) job evaluations t
 ### Claude Code
 
 ```bash
-claude plugin install github:rafsuntaskin/joblumy --subdir career-ops-plugin
+claude plugin install github:rafsuntaskin/careerops-joblumy-plugin
 ```
 
 ### OpenCode
@@ -98,4 +98,4 @@ The hook runs silently in the background — no interruption to your career-ops 
 
 - [career-ops](https://github.com/santifer/career-ops) installed and configured
 - [JobLumy](https://joblumy.com) account with an API key
-- Python 3 and `curl` available in PATH (standard on macOS/Linux)
+- `curl` available in PATH (standard on macOS/Linux)
