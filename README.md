@@ -27,6 +27,12 @@ cp career-ops-plugin/opencode/commands/*.md .opencode/commands/
 
 The skills are shared with Claude Code — if you've already installed the plugin via Claude Code, OpenCode will find them automatically.
 
+### Codex
+
+Codex doesn't have a plugin installer or a hook system. See [`codex/README.md`](codex/README.md) for the manual install (copies skill files to `~/.codex/skills/` and slash-command prompts to `~/.codex/prompts/`).
+
+> Codex doesn't get auto-sync — users run `/joblumy-careerops-sync` manually after each evaluation. Sync uses curl directly against JobLumy's integration endpoints (same as the Claude Code skill) so JobLumy's AI extraction is bypassed.
+
 ## Get your JobLumy API key
 
 Before running setup, you'll need to connect this plugin to your JobLumy account:
